@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ACT4-Operator</title>
+</head>
+
+<body>
+
+    <h1>Operator</h1>
+
+    <p id="add"></p>
+    <p id="sub"></p>
+    <p id="assn"></p>
+
+
+    <script>
+        var x = 10;
+        var num1 = 50;
+        var num2 = 20;
+        var add = num1 + num2;
+        var sub = num1 - num2;
+        document.getElementById("add").innerHTML = "Addition: " + add;
+        document.getElementById("sub").innerHTML = "Subtraction: " + sub;
+        x += 4;   //assignment operator
+        document.getElementById("assn").innerHTML = "Assignment : " + x;
+
+    </script>
+
+</body>
+
+</html>
